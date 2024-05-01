@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <title>Ramen Rater</title>
@@ -12,12 +11,15 @@
   <header>
     <h3>Ramen Rater</h3>
   </header>
-
   
+  <!-- Div for displaying Ramen images -->
   <div id="ramen-menu">
-  
+    <img src="./ramen/gyukotsu.jpg" alt="Gyukotsu Ramen">
+    <img src="./ramen/kojiro.jpg" alt="Kojiro Red Ramen">
+    <img src="./ramen/naruto.jpg" alt="Naruto Ramen">
+    <img src="./ramen/nirvana.jpg" alt="Nirvana Shiromaru">
+    <img src="./ramen/shoyu.jpg" alt="Shoyu Ramen">
   </div>
-
 
   <div id="ramen-detail">
     <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
@@ -34,7 +36,7 @@
     Insert comment here
   </p>
 
-
+  <!-- Form for adding new Ramen -->
   <form id="new-ramen">
     <h4>Add New Ramen</h4>
     <label for="new-name">Name: </label>
@@ -46,11 +48,10 @@
     <label for="new-rating">Rating: </label>
     <input type="number" name="rating" id="new-rating" />
     <label for="new-comment">Comment: </label>
-    <textarea name="new-comment" name="new-comment" id="new-comment"></textarea>
+    <textarea name="new-comment" id="new-comment"></textarea>
     <input type="submit" id='submit-button' value="Create" />
   </form>
 
 </body>
-
 </html>
 
